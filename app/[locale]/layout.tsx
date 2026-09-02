@@ -1,6 +1,7 @@
 import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import '../globals.css';
+import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import { SiteFooter, SiteHeader } from '@/components/SiteChrome';
 import { isLocale, locales, type Locale } from '@/lib/i18n';
 
@@ -26,6 +27,7 @@ export default async function LocaleLayout({
         <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
       </head>
       <body>
+        <GoogleAnalytics />
         <SiteHeader locale={locale} />
         {children}
         <SiteFooter locale={locale} />
