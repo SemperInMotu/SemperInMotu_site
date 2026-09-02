@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /proto-c/
+Disallow: /archive/
+
+Sitemap: https://semperinmotu.com/sitemap.xml

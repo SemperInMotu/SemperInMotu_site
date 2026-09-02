@@ -1,0 +1,36 @@
+# Next.js
+.next/
+out/
+
+# Legacy Vite static site (superseded by Next.js)
+dist/
+_legacy/
+index.html
+vite.config.legacy.js
+/en/
+/ru/
+/be/
+/ops/
+/about/
+/contact/
+/work/
+/journal/
+/heritage/
+/archive/
+/proto-c/
+/src/
+
+# deps
+node_modules/
+
+# env
+.env*.local
+
+# logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,5 @@
+# Heritavia moved to its own subdomain.
+/heritage/*     https://heritavia.vitalykhoruzhko.com/:splat        301!
+/ru/heritage/*  https://heritavia.vitalykhoruzhko.com/ru/:splat     301!
+/be/heritage/*  https://heritavia.vitalykhoruzhko.com/be/:splat     301!
+/en/heritage/*  https://heritavia.vitalykhoruzhko.com/:splat        301!
