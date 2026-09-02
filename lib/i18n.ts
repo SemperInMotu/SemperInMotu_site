@@ -33,15 +33,12 @@ export function personalUrl(locale: Locale): string {
 }
 
 export function stripLocalePath(pathname: string): string {
-  const cleaned = pathname.replace(/^\/(ru|be)(?=\/|$)/, '');
+  const cleaned = pathname.replace(/^\/(en|ru|be)(?=\/|$)/, '');
   return cleaned || '/';
 }
 
 export function switchLocalePath(pathname: string, target: Locale): string {
-  const rest = stripLocalePath(pathname);
-  if (target === 'en') return rest === '/' ? '/' : rest.endsWith('/') ? rest : `${rest}/`;
-  const tail = rest === '/' ? '/' : rest;
-  return `/${target}${tail}`;
+  return localePath(target, stripLocalePath(pathname));
 }
 
 export const chrome = {

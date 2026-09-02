@@ -35,9 +35,9 @@ jobs:
         run: npm run build
         env:
           NEXT_TELEMETRY_DISABLED: 1
-          # Project Pages: https://<org>.github.io/SemperInMotu_site/
-          # Custom domain (semperinmotu.com): set repository variable BASE_PATH empty or remove line
-          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '/SemperInMotu_site' }}
+          # Custom domain (semperinmotu.com): default empty basePath
+          # Project Pages only: set repo variable NEXT_PUBLIC_BASE_PATH=/SemperInMotu_site
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH || '' }}
 
       - uses: actions/upload-pages-artifact@v3
         with:

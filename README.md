@@ -75,8 +75,8 @@ Static export (`output: 'export'`). Workflow: `.github/workflows/deploy-pages.ym
 
 | Hosting | `NEXT_PUBLIC_BASE_PATH` | Example |
 |---------|-------------------------|---------|
-| Project Pages | `/SemperInMotu_site` (default in workflow) | `https://semperinmotu.github.io/SemperInMotu_site/en/` |
-| Custom domain | empty — set repo variable `NEXT_PUBLIC_BASE_PATH` to `` or `/` | `https://semperinmotu.com/en/` |
+| Custom domain | empty (default) | `https://semperinmotu.com/en/` |
+| Project Pages | `/SemperInMotu_site` — set repo variable | `https://semperinmotu.github.io/SemperInMotu_site/en/` |
 
 **Settings → Secrets and variables → Actions → Variables:**
 
