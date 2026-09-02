@@ -7,7 +7,7 @@ export function isLocale(value: string): value is Locale {
 }
 
 export function localePrefix(locale: Locale): string {
-  return locale === 'en' ? '' : `/${locale}`;
+  return `/${locale}`;
 }
 
 export function localePath(locale: Locale, path: string): string {
