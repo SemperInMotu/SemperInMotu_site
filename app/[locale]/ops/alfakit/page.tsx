@@ -1,7 +1,5 @@
-import { redirect } from 'next/navigation';
-import { alfakitUrl, type Locale } from '@/lib/i18n';
+import { redirectLocale } from '@/lib/redirect';
 
-export default async function AlfakitRedirect({ params }: { params: Promise<{ locale: string }> }) {
-  const locale = (await params).locale as Locale;
-  redirect(alfakitUrl(locale));
+export default async function OpsAlfakitRedirect({ params }: { params: Promise<{ locale: string }> }) {
+  redirectLocale((await params).locale, '/products/alfakit');
 }

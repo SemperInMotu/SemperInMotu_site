@@ -50,7 +50,7 @@ export default async function WorkPage({ params }: { params: Promise<{ locale: s
                 ? 'Синтетические демо: logistics OTIF, retail, plant OEE, e-commerce.'
                 : 'Synthetic demos: logistics OTIF tower, retail store ops, plant OEE, e-commerce fulfillment.'}
             </p>
-            <Link className="btn btn-line" style={{ marginTop: '1rem', display: 'inline-flex' }} href={localePath(locale, '/ops/demos')}>
+            <Link className="btn btn-line" style={{ marginTop: '1rem', display: 'inline-flex' }} href={localePath(locale, '/products/demos')}>
               {isRu ? 'Открыть демо →' : 'Open demos →'}
             </Link>
           </div>

@@ -7,45 +7,51 @@ export const homeCopy: L<{
   description: string;
   lead: string;
   support: string;
-  ctaOps: string;
+  ctaStart: string;
   ctaContact: string;
   trust: string;
   viewWork: string;
   allProjects: string;
+  problemFirst: string;
 }> = {
   en: {
-    title: 'Semper In Motu — Ops for logistics and data',
+    title: 'Semper In Motu — AI & Data Engineering for Business',
     description:
-      'Semper In Motu Ops agency: Data/DWH, ALFAKIT SMART, KPI POC on top of TMS/CRM.',
-    lead: 'We turn knowledge into systems — for logistics, data and AI on top of operations.',
-    support: 'Agentic ops on TMS/CRM · Data / DWH · conversation intelligence · KPI POC.',
-    ctaOps: 'Ops Systems →',
-    ctaContact: 'Get in touch',
-    trust: '20+ years in TMS/CRM · audit & human-in-the-loop · Eastern Europe',
+      'AI & Data Engineering for Business: analytics, agents, BI, audit and human-in-the-loop.',
+    lead: 'We turn business knowledge into intelligent systems.',
+    support: 'AI Engineering · Data Analytics · Business Intelligence · Automation',
+    ctaStart: 'What brought you here →',
+    ctaContact: 'Discuss a project',
+    trust: '25+ years between software, data and ops · audit & human-in-the-loop · CEE',
     viewWork: 'View work',
     allProjects: 'All projects',
+    problemFirst: "Don't start with AI. Start with the problem.",
   },
   ru: {
-    title: 'Semper In Motu — Ops для логистики и данных',
-    description: 'Ops-агентство Semper In Motu: Data/DWH, ALFAKIT SMART, KPI POC поверх TMS/CRM.',
-    lead: 'Превращаем знания в системы — для логистики, данных и AI поверх операций.',
-    support: 'Agentic ops поверх TMS/CRM · Data / DWH · conversation intelligence · KPI POC.',
-    ctaOps: 'Ops Systems →',
-    ctaContact: 'Написать',
-    trust: '20+ лет TMS/CRM · audit & human-in-the-loop · Восточная Европа',
+    title: 'Semper In Motu — AI & Data Engineering for Business',
+    description:
+      'AI & Data Engineering for Business: аналитика, агенты, BI, audit и human-in-the-loop.',
+    lead: 'Превращаем знания бизнеса в работающие системы.',
+    support: 'AI Engineering · Data Analytics · Business Intelligence · Automation',
+    ctaStart: 'С какой задачей →',
+    ctaContact: 'Обсудить проект',
+    trust: '25+ лет между software, data и ops · audit & human-in-the-loop · CEE',
     viewWork: 'Смотреть работы',
     allProjects: 'Все проекты',
+    problemFirst: 'Не начинаем с AI. Начинаем с проблемы.',
   },
   be: {
-    title: 'Semper In Motu — Ops для лагістыкі і даных',
-    description: 'Ops-агенцтва Semper In Motu: Data/DWH, ALFAKIT SMART, KPI POC паверх TMS/CRM.',
-    lead: 'Ператвараем веды ў сістэмы — для лагістыкі, даных і AI паверх аперацый.',
-    support: 'Agentic ops паверх TMS/CRM · Data / DWH · conversation intelligence · KPI POC.',
-    ctaOps: 'Ops Systems →',
-    ctaContact: 'Напісаць',
-    trust: '20+ гадоў TMS/CRM · audit & human-in-the-loop · Усходняя Европа',
+    title: 'Semper In Motu — AI & Data Engineering for Business',
+    description:
+      'AI & Data Engineering for Business: аналітыка, агенты, BI, audit і human-in-the-loop.',
+    lead: 'Ператвараем веды бізнесу ў працуючыя сістэмы.',
+    support: 'AI Engineering · Data Analytics · Business Intelligence · Automation',
+    ctaStart: 'З якой задачай →',
+    ctaContact: 'Абмеркаваць праект',
+    trust: '25+ гадоў паміж software, data і ops · audit & human-in-the-loop · CEE',
     viewWork: 'Глядзець кейсы',
     allProjects: 'Усе праекты',
+    problemFirst: 'Не пачынаем з AI. Пачынаем з праблемы.',
   },
 };
 
@@ -61,10 +67,10 @@ export const opsIndexCopy: L<{
   steps: string[];
 }> = {
   en: {
-    title: 'Ops Systems — Semper In Motu',
-    description: 'Ops: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC. Semper In Motu.',
-    eyebrow: 'Ops Systems',
-    h1: 'Agentic AI for business',
+    title: 'Logistics AI — Semper In Motu',
+    description: 'Logistics: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC. Semper In Motu.',
+    eyebrow: 'Solutions · Logistics',
+    h1: 'Agentic AI for logistics',
     lead: 'We do not replace your TMS. We provide agents with audit trails, approval gates and KPIs defined before launch.',
     cta: 'Book a discovery call',
     howTitle: 'How we work',
@@ -80,27 +86,27 @@ export const opsIndexCopy: L<{
         title: 'Data / DWH',
         body: 'Lake, warehouse, ETL from any database, self-service BI. A separate discovery → DWH engagement.',
         more: 'Learn more →',
-        href: '/ops/data',
+        href: '/products/data',
       },
       {
         title: 'ALFAKIT SMART',
         body: 'Calls → transcript → scoring → extraction into CRM → Telegram Q&A.',
         more: 'Learn more →',
-        href: '/ops/smart',
+        href: '/products/smart',
       },
       {
         title: 'KPI POC',
         body: 'A pilot on your metrics: minutes, FCR, SLA. No L3 autonomy.',
         more: 'Request a POC →',
-        href: '/ops/poc',
+        href: '/products/poc',
       },
     ],
     steps: ['Discovery', 'Baseline KPI', 'Signed POC', '2 weeks live', 'Go / No-Go'],
   },
   ru: {
-    title: 'Ops Systems — Semper In Motu',
-    description: 'Ops: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC. Semper In Motu.',
-    eyebrow: 'Ops Systems',
+    title: 'Logistics AI — Semper In Motu',
+    description: 'Logistics: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC. Semper In Motu.',
+    eyebrow: 'Solutions · Logistics',
     h1: 'Agentic AI для логистики',
     lead: 'Не заменяем ваш TMS. Даём агентов с audit, approval gates и KPI до старта.',
     cta: 'Назначить discovery call',
@@ -117,28 +123,28 @@ export const opsIndexCopy: L<{
         title: 'Data / DWH',
         body: 'Lake, warehouse, ETL из любых БД, BI self-service. Отдельный прайс discovery → DWH.',
         more: 'Подробнее →',
-        href: '/ops/data',
+        href: '/products/data',
       },
       {
         title: 'ALFAKIT SMART',
         body: 'Звонки → транскрипт → скоринг → extract в КУ/ПУ → Telegram Q&A.',
         more: 'Подробнее →',
-        href: '/ops/smart',
+        href: '/products/smart',
       },
       {
         title: 'KPI POC',
         body: 'Пилот на ваших метриках: минуты, FCR, SLA. Без L3-автономии.',
         more: 'Запросить POC →',
-        href: '/ops/poc',
+        href: '/products/poc',
       },
     ],
     steps: ['Discovery', 'Baseline KPI', 'Signed POC', '2 нед live', 'Go / No-Go'],
   },
   be: {
-    title: 'Ops Systems — Semper In Motu',
-    description: 'Ops: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC.',
-    eyebrow: 'Ops Systems',
-    h1: 'Agentic AI для бізнесу',
+    title: 'Logistics AI — Semper In Motu',
+    description: 'Logistics: Domino TMS (alfakit.by), Data/DWH, ALFAKIT SMART, KPI POC.',
+    eyebrow: 'Solutions · Logistics',
+    h1: 'Agentic AI для лагістыкі',
     lead: 'Не замяняем ваш TMS. Даём агентаў з audit, approval gates і KPI да старту.',
     cta: 'Discovery call',
     howTitle: 'Як працуем',
@@ -154,19 +160,19 @@ export const opsIndexCopy: L<{
         title: 'Data / DWH',
         body: 'Lake, warehouse, ETL з любых БД, BI self-service.',
         more: 'Падрабязней →',
-        href: '/ops/data',
+        href: '/products/data',
       },
       {
         title: 'ALFAKIT SMART',
         body: 'Званкі → транскрыпт → scoring → extract у CRM → Telegram Q&A.',
         more: 'Падрабязней →',
-        href: '/ops/smart',
+        href: '/products/smart',
       },
       {
         title: 'KPI POC',
         body: 'Пілот на вашых метриках: хвіліны, FCR, SLA.',
         more: 'Запытаць POC →',
-        href: '/ops/poc',
+        href: '/products/poc',
       },
     ],
     steps: ['Discovery', 'Baseline KPI', 'Signed POC', '2 тыд live', 'Go / No-Go'],
@@ -190,11 +196,11 @@ export const contactCopy: L<{
 }> = {
   en: {
     title: 'Contact — Semper In Motu',
-    description: 'Contact Semper In Motu: Ops, SMART, POC, Data.',
+    description: 'Contact Semper In Motu: Analytics, Engineering, SMART, POC, Data.',
     eyebrow: 'Contact',
     h1: 'Get in touch',
     leadHtml:
-      'Ops, Data and AI: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · or the form below. Full portfolio: <a href="https://vitalykhoruzhko.com/">vitalykhoruzhko.com</a>.',
+      'AI & Data: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · or the form below. Full portfolio: <a href="https://vitalykhoruzhko.com/">vitalykhoruzhko.com</a>.',
     topic: 'Topic',
     name: 'Name',
     email: 'Email',
@@ -203,7 +209,9 @@ export const contactCopy: L<{
     send: 'Send',
     privacy: 'We only use your details to handle the enquiry.',
     topics: [
-      { value: 'ops', label: 'Ops' },
+      { value: 'analytics', label: 'Analytics' },
+      { value: 'engineering', label: 'AI Engineering' },
+      { value: 'logistics', label: 'Logistics' },
       { value: 'alfakit', label: 'ALFAKIT / Domino' },
       { value: 'data-dwh', label: 'Data / DWH' },
       { value: 'smart', label: 'SMART' },
@@ -213,11 +221,11 @@ export const contactCopy: L<{
   },
   ru: {
     title: 'Contact — Semper In Motu',
-    description: 'Связаться с Semper In Motu: Ops, SMART, POC, Data.',
+    description: 'Связаться с Semper In Motu: Analytics, Engineering, SMART, POC, Data.',
     eyebrow: 'Contact',
     h1: 'Напишите',
     leadHtml:
-      'Ops, Data и AI: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · или форма ниже. Портфель проектов — на <a href="https://vitalykhoruzhko.com/ru/">vitalykhoruzhko.com</a>.',
+      'AI & Data: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · или форма ниже. Портфель проектов — на <a href="https://vitalykhoruzhko.com/ru/">vitalykhoruzhko.com</a>.',
     topic: 'Тема',
     name: 'Имя',
     email: 'Email',
@@ -226,7 +234,9 @@ export const contactCopy: L<{
     send: 'Отправить',
     privacy: 'Пишем только по делу заявки.',
     topics: [
-      { value: 'ops', label: 'Ops' },
+      { value: 'analytics', label: 'Analytics' },
+      { value: 'engineering', label: 'AI Engineering' },
+      { value: 'logistics', label: 'Логистика' },
       { value: 'alfakit', label: 'ALFAKIT / Domino' },
       { value: 'data-dwh', label: 'Data / DWH' },
       { value: 'smart', label: 'SMART' },
@@ -236,11 +246,11 @@ export const contactCopy: L<{
   },
   be: {
     title: 'Contact — Semper In Motu',
-    description: 'Кантакт Semper In Motu: Ops, SMART, POC, Data.',
+    description: 'Кантакт Semper In Motu: Analytics, Engineering, SMART, POC, Data.',
     eyebrow: 'Contact',
     h1: 'Напішыце',
     leadHtml:
-      'Ops, Data і AI: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · або форма ніжэй. Портфель — <a href="https://vitalykhoruzhko.com/be/">vitalykhoruzhko.com</a>.',
+      'AI & Data: <a href="mailto:info@semperinmotu.com">info@semperinmotu.com</a> · або форма ніжэй. Портфель — <a href="https://vitalykhoruzhko.com/be/">vitalykhoruzhko.com</a>.',
     topic: 'Тэма',
     name: 'Імя',
     email: 'Email',
@@ -249,7 +259,9 @@ export const contactCopy: L<{
     send: 'Адправіць',
     privacy: 'Пішем толькі па справе заявкі.',
     topics: [
-      { value: 'ops', label: 'Ops' },
+      { value: 'analytics', label: 'Analytics' },
+      { value: 'engineering', label: 'AI Engineering' },
+      { value: 'logistics', label: 'Лагістыка' },
       { value: 'alfakit', label: 'ALFAKIT / Domino' },
       { value: 'data-dwh', label: 'Data / DWH' },
       { value: 'smart', label: 'SMART' },

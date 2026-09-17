@@ -59,7 +59,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
               style={{ position: 'absolute', left: -9999, height: 0, width: 0, opacity: 0 }}
             />
             <label htmlFor="topic">{copy.topic}</label>
-            <select id="topic" name="topic" required defaultValue="ops">
+            <select id="topic" name="topic" required defaultValue="analytics">
               {copy.topics.map((t) => (
                 <option key={t.value} value={t.value}>
                   {t.label}

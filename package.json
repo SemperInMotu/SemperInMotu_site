@@ -6,7 +6,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "next dev --port 5174",
+    "dev": "next dev --port 5175",
+    "dev:v1-port": "next dev --port 5174",
     "build": "next build",
     "lint": "next lint",
     "sitemap": "node scripts/gen-sitemap.mjs"

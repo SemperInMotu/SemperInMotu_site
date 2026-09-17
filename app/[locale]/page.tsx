@@ -32,9 +32,12 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           <h1 className="brand-mark">Semper In Motu</h1>
           <p className="hero-lead">{copy.lead}</p>
           <p className="hero-support">{copy.support}</p>
+          <p className="trust" style={{ marginBottom: '1rem', opacity: 0.9 }}>
+            {copy.problemFirst}
+          </p>
           <div className="cta-row">
-            <Link className="btn btn-signal" href={localePath(locale, '/ops')}>
-              {copy.ctaOps}
+            <Link className="btn btn-signal" href={localePath(locale, '/start')}>
+              {copy.ctaStart}
             </Link>
             <Link className="btn btn-ghost" href={localePath(locale, '/contact')}>
               {copy.ctaContact}
@@ -47,6 +50,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div className="wrap" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem 1.5rem' }}>
           <Link className="btn btn-line" href={localePath(locale, '/work')}>
             {copy.viewWork}
+          </Link>
+          <Link className="btn btn-line" href={localePath(locale, '/solutions/logistics')}>
+            Logistics →
           </Link>
           <a className="btn btn-line" href={personalUrl(locale)}>
             {copy.allProjects}

@@ -12,7 +12,7 @@ import {
   type Locale,
 } from '@/lib/i18n';
 
-type NavKey = 'home' | 'ops' | 'work' | 'journal' | 'contact' | 'about';
+type NavKey = 'start' | 'capabilities' | 'solutions' | 'work' | 'journal' | 'contact' | 'about' | 'home';
 
 export function SiteHeader({ locale, current }: { locale: Locale; current?: NavKey }) {
   const t = tChrome(locale);
@@ -29,14 +29,20 @@ export function SiteHeader({ locale, current }: { locale: Locale; current?: NavK
           ? 'journal'
           : pathname.includes('/work')
             ? 'work'
-            : pathname.includes('/ops')
-              ? 'ops'
-              : pathname === localePath(locale, '/') || pathname === '/'
-                ? 'home'
-                : undefined);
+            : pathname.includes('/solutions') || pathname.includes('/products') || pathname.includes('/ops')
+              ? 'solutions'
+              : pathname.includes('/capabilities') || pathname.includes('/methods') || pathname.includes('/engage')
+                ? 'capabilities'
+                : pathname.includes('/start')
+                  ? 'start'
+                  : pathname === localePath(locale, '/') || pathname.endsWith(`/${locale}/`)
+                    ? 'home'
+                    : undefined);
 
   const links: { key: NavKey; href: string; label: string }[] = [
-    { key: 'ops', href: localePath(locale, '/ops'), label: t.ops },
+    { key: 'start', href: localePath(locale, '/start'), label: t.start },
+    { key: 'capabilities', href: localePath(locale, '/capabilities'), label: t.capabilities },
+    { key: 'solutions', href: localePath(locale, '/solutions'), label: t.solutions },
     { key: 'work', href: localePath(locale, '/work'), label: t.work },
     { key: 'journal', href: localePath(locale, '/journal'), label: t.journal },
   ];
@@ -115,10 +121,16 @@ export function SiteFooter({ locale }: { locale: Locale }) {
                 <a href={alfakitUrl(locale)}>{t.alfakit}</a>
               </li>
               <li>
-                <Link href={localePath(locale, '/ops/data')}>{t.data}</Link>
+                <Link href={localePath(locale, '/products/data')}>{t.data}</Link>
               </li>
               <li>
-                <Link href={localePath(locale, '/ops/smart')}>{t.smart}</Link>
+                <Link href={localePath(locale, '/products/smart')}>{t.smart}</Link>
+              </li>
+              <li>
+                <Link href={localePath(locale, '/methods')}>{t.methods}</Link>
+              </li>
+              <li>
+                <Link href={localePath(locale, '/engage')}>{t.engage}</Link>
               </li>
             </ul>
           </div>
