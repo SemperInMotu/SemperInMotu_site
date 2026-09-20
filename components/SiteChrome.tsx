@@ -55,7 +55,7 @@ export function SiteHeader({ locale, current }: { locale: Locale; current?: NavK
         </Link>
         <div className="header-tools">
           <nav className="lang-switch" aria-label="Language">
-            {(['en', 'ru', 'be'] as const).map((code) =>
+            {(['en', 'ru'] as const).map((code) =>
               code === locale ? (
                 <span key={code} className="lang-current" aria-current="page">
                   {code.toUpperCase()}

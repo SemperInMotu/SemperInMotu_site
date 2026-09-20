@@ -12,8 +12,11 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/solutions',
-    title: 'Solutions — Semper In Motu',
-    description: 'Business contours: logistics, sales ops, operations — AI with audit.',
+    title: locale === 'ru' ? 'Решения — Semper In Motu' : 'Solutions — Semper In Motu',
+    description:
+      locale === 'ru'
+        ? 'Контуры бизнеса: логистика, продажи, операции — ИИ с аудитом.'
+        : 'Business contours: logistics, sales ops, operations — AI with audit.',
   });
 }
 
@@ -21,29 +24,29 @@ const items = [
   {
     href: '/solutions/logistics',
     en: { t: 'Logistics', d: 'TMS/CRM · SMART · OTIF — our strongest proof.' },
-    ru: { t: 'Логистика', d: 'TMS/CRM · SMART · OTIF — главный proof.' },
+    ru: { t: 'Логистика', d: 'TMS/CRM · SMART · своевременность доставок — наш главный доказанный опыт.' },
   },
   {
     href: '/solutions/sales-ops',
     en: { t: 'Sales ops', d: 'Calls → extract → approve → CRM.' },
-    ru: { t: 'Sales ops', d: 'Звонки → extract → approve → CRM.' },
+    ru: { t: 'Продажи', d: 'Звонки → извлечение → подтверждение → CRM.' },
   },
   {
     href: '/solutions/operations',
     en: { t: 'Operations', d: 'Exception desk · SOP Q&A · HITL.' },
-    ru: { t: 'Operations', d: 'Exception desk · SOP Q&A · HITL.' },
+    ru: { t: 'Операции', d: 'Стол исключений · ответы по регламентам · человек в контуре.' },
   },
 ] as const;
 
 export default async function SolutionsIndexPage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Solutions</div>
+          <div className="eyebrow">{isRu ? 'Решения' : 'Solutions'}</div>
           <h1>{isRu ? 'Где в бизнесе это живёт' : 'Where this lives in the business'}</h1>
           <p className="lead">
             {isRu

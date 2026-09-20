@@ -25,7 +25,7 @@ const pages = [
   'contact/',
 ];
 
-const locales = ['en', 'ru', 'be'];
+const locales = ['en', 'ru'];
 const url = (lang, page) => `${HOST}${lang === 'en' ? '' : `/${lang}`}/${page}`;
 
 const entries = locales.flatMap((lang) =>

@@ -1,9 +1,8 @@
-import Link from 'next/link';
 import type { Metadata } from 'next';
 import { Suspense } from 'react';
 import { FormSentStatus } from '@/components/FormSentStatus';
 import { contactCopy, pick } from '@/lib/copy';
-import { localePath, siteUrl, type Locale } from '@/lib/i18n';
+import { siteUrl, type Locale } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -32,7 +31,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         <div className="wrap">
           <div className="eyebrow">{copy.eyebrow}</div>
           <h1>{copy.h1}</h1>
-          <p className="lead" dangerouslySetInnerHTML={{ __html: copy.leadHtml }} />
         </div>
       </section>
       <section className="section">

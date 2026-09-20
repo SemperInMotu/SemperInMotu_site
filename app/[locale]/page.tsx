@@ -52,7 +52,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             {copy.viewWork}
           </Link>
           <Link className="btn btn-line" href={localePath(locale, '/solutions/logistics')}>
-            Logistics →
+            {locale === 'ru' ? 'Логистика →' : 'Logistics →'}
           </Link>
           <a className="btn btn-line" href={personalUrl(locale)}>
             {copy.allProjects}

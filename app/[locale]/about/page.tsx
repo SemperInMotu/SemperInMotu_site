@@ -12,24 +12,27 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/about',
-    title: 'About — Semper In Motu',
-    description: 'AI & Data Engineering for Business — two engineers, analytics and delivery.',
+    title: locale === 'ru' ? 'О студии — Semper In Motu' : 'About — Semper In Motu',
+    description:
+      locale === 'ru'
+        ? 'ИИ и данные для бизнеса — два инженера, аналитика и разработка.'
+        : 'AI & Data Engineering for Business — two engineers, analytics and delivery.',
   });
 }
 
 export default async function AboutPage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">About</div>
+          <div className="eyebrow">{isRu ? 'О студии' : 'About'}</div>
           <h1>{isRu ? 'Знания → системы' : 'Knowledge → systems'}</h1>
           <p className="lead">
             {isRu
-              ? 'Два инженера с общим AI-бэкграундом: аналитика, данные, delivery и интерфейсы. Не staffing-агентство.'
+              ? 'Два инженера с общим бэкграундом по ИИ: аналитика, данные, разработка и интерфейсы. Не агентство по подбору персонала.'
               : 'Two engineers with a shared AI background: analytics, data, delivery and interfaces. Not a staffing shop.'}
           </p>
         </div>
@@ -40,7 +43,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             <h3>Vitaly</h3>
             <p className="muted">
               {isRu
-                ? 'Discovery · KPI · DWH/BI · logistics domain · SMART / writeback. 20+ лет TMS/CRM/ERP/BI, AI+GIS с 2003.'
+                ? 'Знакомство · KPI · хранилища и отчёты · логистика · SMART / запись в систему. 20+ лет TMS/CRM/ERP, ИИ и ГИС с 2003.'
                 : 'Discovery · KPI · DWH/BI · logistics domain · SMART / writeback. 20+ years TMS/CRM/ERP/BI, AI+GIS since 2003.'}
             </p>
             <a className="more" href={personalUrl(locale)}>
@@ -48,23 +51,27 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
             </a>
           </div>
           <div className="panel">
-            <h3>{isRu ? 'Engineering partner' : 'Engineering partner'}</h3>
+            <h3>{isRu ? 'Партнёр по разработке' : 'Engineering partner'}</h3>
             <p className="muted">
               {isRu
-                ? 'Delivery · FE/full-stack · ML · team lead · production UI для агентов и BI.'
+                ? 'Поставка · интерфейсы и полный стек · машинное обучение · тимлид · промышленный UI для агентов и отчётов.'
                 : 'Delivery · FE/full-stack · ML · team lead · production UI for agents and BI.'}
             </p>
             <Link className="more" href={localePath(locale, '/capabilities/engineering')}>
-              {isRu ? 'AI Engineering →' : 'AI Engineering →'}
+              {isRu ? 'Разработка ИИ →' : 'AI Engineering →'}
             </Link>
           </div>
         </div>
         <div className="wrap" style={{ marginTop: '1.5rem' }}>
           <div className="panel">
-            <h3>Ops Systems</h3>
-            <p className="muted">ALFAKIT Care (→ alfakit.by) · SMART · KPI POC · Data / DWH</p>
+            <h3>{isRu ? 'Операционные системы' : 'Ops Systems'}</h3>
+            <p className="muted">
+              {isRu
+                ? 'ALFAKIT Care (→ alfakit.by) · SMART · KPI-пилот · данные и хранилища'
+                : 'ALFAKIT Care (→ alfakit.by) · SMART · KPI POC · Data / DWH'}
+            </p>
             <Link className="more" href={localePath(locale, '/solutions/logistics')}>
-              {isRu ? 'Logistics →' : 'Logistics →'}
+              {isRu ? 'Логистика →' : 'Logistics →'}
             </Link>
           </div>
           <Link className="btn btn-ink" style={{ marginTop: '1.5rem', display: 'inline-flex' }} href={localePath(locale, '/contact')}>

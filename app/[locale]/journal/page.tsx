@@ -1,5 +1,7 @@
+import Link from 'next/link';
 import type { Metadata } from 'next';
-import { type Locale } from '@/lib/i18n';
+import { journalPosts } from '@/lib/journal';
+import { localePath, type Locale } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -11,50 +13,42 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/journal',
-    title: 'Journal — Semper In Motu',
-    description: 'Semper In Motu Journal: ops AI, data and method notes.',
+    title: locale === 'ru' ? 'Журнал — Semper In Motu' : 'Journal — Semper In Motu',
+    description:
+      locale === 'ru'
+        ? 'Журнал Semper In Motu: ИИ в операциях, данные и метод.'
+        : 'Semper In Motu Journal: ops AI, data and method notes.',
   });
 }
 
 export default async function JournalPage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Journal</div>
+          <div className="eyebrow">{isRu ? 'Журнал' : 'Journal'}</div>
           <h1>{isRu ? 'Заметки о системах' : 'Notes on systems'}</h1>
           <p className="lead">
-            Ops AI, data and method. TG:{' '}
-            <a href="https://t.me/N_FT210993" rel="noopener">
-              @N_FT210993
-            </a>
-            .
+            {isRu ? 'ИИ в операциях, данные и метод.' : 'Ops AI, data and method.'}
           </p>
         </div>
       </section>
       <section className="section">
         <div className="wrap post-list">
-          <article className="post">
-            <span className="tag">Method</span>
-            <h3>Audit, provenance, human-in-the-loop</h3>
-            <p className="muted">
-              {isRu
-                ? 'Агент без следа — демо, не система. Одна логика для TMS и DWH.'
-                : 'Why an agent without a trace is a demo, not a system. The same logic applies to a TMS and a data warehouse.'}
-            </p>
-          </article>
-          <article className="post">
-            <span className="tag">Ops</span>
-            <h3>{isRu ? 'От звонка к CRM без «ещё одного чатбота»' : 'From a call to CRM records without “another chatbot”'}</h3>
-            <p className="muted">
-              {isRu
-                ? 'Conversation intelligence как writeback с approve.'
-                : 'Conversation intelligence as an approved writeback — not an answer for its own sake.'}
-            </p>
-          </article>
+          {journalPosts.map((post) => {
+            const c = isRu ? post.ru : post.en;
+            return (
+              <Link key={post.slug} className="post" href={localePath(locale, post.href)}>
+                <span className="tag">{isRu ? post.tag.ru : post.tag.en}</span>
+                <h3>{c.title}</h3>
+                <p className="muted">{c.lead}</p>
+                <span className="more">{isRu ? 'Читать →' : 'Read →'}</span>
+              </Link>
+            );
+          })}
         </div>
       </section>
     </main>

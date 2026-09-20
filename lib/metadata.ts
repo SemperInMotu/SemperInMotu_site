@@ -21,7 +21,6 @@ export function pageMetadata({
   const languages: Record<string, string> = {
     en: siteUrl('en', path),
     ru: siteUrl('ru', path),
-    be: siteUrl('be', path),
     'x-default': siteUrl('en', path),
   };
 

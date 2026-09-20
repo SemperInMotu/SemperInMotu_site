@@ -810,6 +810,47 @@ textarea {
   color: var(--copper);
 }
 
+a.post {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.15s ease;
+}
+
+a.post:hover {
+  opacity: 0.85;
+}
+
+a.post .more {
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--copper);
+}
+
+.journal-article {
+  max-width: 42rem;
+}
+
+.journal-article section + section {
+  margin-top: 2rem;
+}
+
+.journal-article h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.journal-article p {
+  margin: 0 0 0.9rem;
+  line-height: 1.65;
+  color: var(--ink);
+  opacity: 0.92;
+}
+
+.journal-article .list-clean {
+  margin: 0.5rem 0 1rem;
+}
+
 .split-work {
   display: grid;
   grid-template-columns: 1fr 1fr;

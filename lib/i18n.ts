@@ -1,4 +1,4 @@
-export const locales = ['en', 'ru', 'be'] as const;
+export const locales = ['en', 'ru'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
 
@@ -22,13 +22,11 @@ export function siteUrl(locale: Locale, path: string = '/'): string {
 
 export function alfakitUrl(locale: Locale): string {
   if (locale === 'ru') return 'https://alfakit.by/ru/';
-  if (locale === 'be') return 'https://alfakit.by/be/';
   return 'https://alfakit.by/';
 }
 
 export function personalUrl(locale: Locale): string {
   if (locale === 'ru') return 'https://vitalykhoruzhko.com/ru/';
-  if (locale === 'be') return 'https://vitalykhoruzhko.com/be/';
   return 'https://vitalykhoruzhko.com/';
 }
 
@@ -66,7 +64,6 @@ export const chrome = {
     unp: 'UNP 102176582 · Vitali Kharuzhko',
     sent: 'Message sent. We will reply to the address you provided.',
     langHintRu: ['Site available in Russian', 'Switch'],
-    langHintBe: ['Site available in Belarusian', 'Switch'],
   },
   ru: {
     menu: 'Меню',
@@ -79,46 +76,19 @@ export const chrome = {
     journal: 'Журнал',
     contact: 'Контакты',
     tagline:
-      'AI & Data Engineering for Business — аналитика, агенты, audit, human-in-the-loop.',
+      'ИИ и данные для бизнеса — аналитика, агенты, аудит действий, человек в контуре решения.',
     products: 'Продукты',
     contactCol: 'Контакты',
     formLink: 'Форма связи',
     about: 'О студии',
     personal: 'Vitaly Khoruzhko',
     alfakit: 'ALFAKIT Care · alfakit.by',
-    data: 'Data / DWH',
+    data: 'Данные и хранилища',
     smart: 'ALFAKIT SMART',
-    always: 'Always in motion',
+    always: 'Всегда в движении',
     unp: 'УНП 102176582 · Хоружко В.В.',
     sent: 'Заявка отправлена. Ответим на указанный адрес.',
     langHintRu: ['Сайт доступен на русском', 'Перейти'],
-    langHintBe: ['Сайт доступен на русском', 'Перейти'],
-  },
-  be: {
-    menu: 'Меню',
-    start: 'Старт',
-    capabilities: 'Практыкі',
-    solutions: 'Рашэнні',
-    methods: 'Метады',
-    engage: 'Як купіць',
-    work: 'Кейсы',
-    journal: 'Часопіс',
-    contact: 'Кантакты',
-    tagline:
-      'AI & Data Engineering for Business — аналітыка, агенты, audit, human-in-the-loop.',
-    products: 'Прадукты',
-    contactCol: 'Кантакты',
-    formLink: 'Форма сувязі',
-    about: 'Пра студыю',
-    personal: 'Vitaly Khoruzhko',
-    alfakit: 'ALFAKIT Care · alfakit.by',
-    data: 'Data / DWH',
-    smart: 'ALFAKIT SMART',
-    always: 'Always in motion',
-    unp: 'УНП 102176582 · Хоружко В.В.',
-    sent: 'Заяўка адпраўлена. Адкажам на пазначаны email.',
-    langHintRu: ['Сайт даступны на русском', 'Перайсці'],
-    langHintBe: ['Сайт даступны па-беларуску', 'Перайсці'],
   },
 } as const;
 

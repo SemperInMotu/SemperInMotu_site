@@ -12,22 +12,25 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: '/engage',
-    title: 'Engage — Semper In Motu',
-    description: 'How to buy: discovery, express audit, KPI POC, build, retainer.',
+    title: locale === 'ru' ? 'Как купить — Semper In Motu' : 'Engage — Semper In Motu',
+    description:
+      locale === 'ru'
+        ? 'Как купить: знакомство, экспресс-аудит, KPI-пилот, разработка, сопровождение.'
+        : 'How to buy: discovery, express audit, KPI POC, build, retainer.',
   });
 }
 
 export default async function EngagePage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   const rows = isRu
     ? [
-        ['Discovery', '30 мин'],
-        ['Express audit', '€500–900'],
-        ['KPI POC', '2 нед, фикс'],
-        ['Build', 'после диагностики'],
-        ['Retainer / Care', 'Domino → alfakit.by; ops AI — отдельный контур'],
+        ['Знакомство', '30 мин'],
+        ['Экспресс-аудит', '€500–900'],
+        ['KPI-пилот', '2 недели, фикс'],
+        ['Разработка', 'после диагностики'],
+        ['Сопровождение / Care', 'Domino → alfakit.by; ИИ в операциях — отдельный контур'],
       ]
     : [
         ['Discovery', '30 min'],
@@ -41,7 +44,7 @@ export default async function EngagePage({ params }: { params: Promise<{ locale:
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Engage</div>
+          <div className="eyebrow">{isRu ? 'Как купить' : 'Engage'}</div>
           <h1>{isRu ? 'Как купить' : 'How to buy'}</h1>
           <p className="lead">
             {isRu
@@ -67,7 +70,7 @@ export default async function EngagePage({ params }: { params: Promise<{ locale:
               {isRu ? 'Написать' : 'Contact'}
             </Link>
             <Link className="btn btn-line" href={localePath(locale, '/methods/express-audit')}>
-              Express audit →
+              {isRu ? 'Экспресс-аудит →' : 'Express audit →'}
             </Link>
             <a className="btn btn-line" href={alfakitUrl(locale)}>
               alfakit.by →
@@ -75,7 +78,7 @@ export default async function EngagePage({ params }: { params: Promise<{ locale:
           </div>
           <p className="fine" style={{ marginTop: '1.25rem' }}>
             {isRu
-              ? 'Не для кого: чат GPT без системы записи · L3 на критичных операциях · пилот без KPI.'
+              ? 'Не для кого: чат без системы учёта · полная автономия на критичных операциях · пилот без KPI.'
               : 'Not for: GPT chat with no system of record · L3 on critical ops · pilots without KPI.'}
           </p>
         </div>

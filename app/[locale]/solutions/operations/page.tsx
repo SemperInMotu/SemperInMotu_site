@@ -19,25 +19,25 @@ export async function generateMetadata({
 
 export default async function OperationsSolutionPage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Solutions</div>
-          <h1>Operations</h1>
+          <div className="eyebrow">{isRu ? 'Решения' : 'Solutions'}</div>
+          <h1>{isRu ? 'Операции' : 'Operations'}</h1>
           <p className="lead">
             {isRu
-              ? 'Exception desk, Q&A по регламентам с citations, shadow mode до auto-approve.'
+              ? 'Стол исключений, ответы по регламентам со ссылками на источники, режим черновика до автоподтверждения.'
               : 'Exception desk, SOP Q&A with citations, shadow mode before auto-approve.'}
           </p>
           <div className="cta-row">
             <Link className="btn btn-ink" href={localePath(locale, '/products/poc')}>
-              KPI POC →
+              {isRu ? 'KPI-пилот →' : 'KPI POC →'}
             </Link>
             <Link className="btn btn-ghost" href={localePath(locale, '/methods/shadow-mode')}>
-              Shadow mode →
+              {isRu ? 'Режим черновика →' : 'Shadow mode →'}
             </Link>
           </div>
         </div>

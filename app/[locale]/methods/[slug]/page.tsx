@@ -18,9 +18,9 @@ const content: Record<
       body: ['Baseline before build', '2 weeks live', 'Go/No-Go report', 'No L3 autonomy'],
     },
     ru: {
-      h1: 'KPI-based POC',
-      lead: '95% GenAI-пилотов умирают без ROI. Стартуем с одной метрики и одного UC.',
-      body: ['Baseline до кода', '2 нед live', 'Go/No-Go отчёт', 'Без L3-автономии'],
+      h1: 'KPI-пилот',
+      lead: '95% пилотов с генеративным ИИ умирают без окупаемости. Стартуем с одной метрики и одного сценария.',
+      body: ['Исходный уровень до разработки', '2 недели на реальных данных', 'Отчёт «идём / не идём»', 'Без полной автономии'],
     },
   },
   'shadow-mode': {
@@ -32,9 +32,9 @@ const content: Record<
       body: ['Zero silent writes at start', 'Audit every suggestion', 'Raise auto-approve with evidence'],
     },
     ru: {
-      h1: 'Shadow mode',
-      lead: 'Агент пишет черновик; человек подтверждает. Auto-approve растёт только по eval.',
-      body: ['Сначала без тихих writeback', 'Audit каждой рекомендации', 'Рост auto-approve по фактам'],
+      h1: 'Режим черновика',
+      lead: 'Агент пишет черновик; человек подтверждает. Доля автоподтверждений растёт только по результатам проверки качества.',
+      body: ['Сначала без тихой записи в систему', 'Журнал каждой рекомендации', 'Рост автоподтверждений по фактам'],
     },
   },
   'audit-lane': {
@@ -46,9 +46,9 @@ const content: Record<
       body: ['Immutable log', 'Provenance for extracts', 'Human-in-the-loop roles'],
     },
     ru: {
-      h1: 'Audit lane',
-      lead: 'Каждое действие: who / when / why / source. Одна дисциплина для TMS и DWH.',
-      body: ['Immutable log', 'Provenance для extract', 'Роли HITL'],
+      h1: 'Журнал действий',
+      lead: 'Каждое действие: кто / когда / зачем / из какого источника. Одна дисциплина для TMS и хранилища данных.',
+      body: ['Неизменяемый журнал', 'Происхождение извлечённых фактов', 'Роли с человеком в контуре'],
     },
   },
   'express-audit': {
@@ -60,9 +60,9 @@ const content: Record<
       body: ['3–5 interviews', 'Process + data map', 'Use-case shortlist', 'Feasibility & effort'],
     },
     ru: {
-      h1: 'Express audit',
+      h1: 'Экспресс-аудит',
       lead: '€500–900 в зависимости от числа интервью. Письменное заключение — без внедрения.',
-      body: ['3–5 интервью', 'Карта процессов и данных', 'Шортлист UC', 'Feasibility и трудоёмкость'],
+      body: ['3–5 интервью', 'Карта процессов и данных', 'Шортлист сценариев', 'Осуществимость и трудоёмкость'],
     },
   },
 };
@@ -96,14 +96,14 @@ export default async function MethodSlugPage({
   const locale = raw as Locale;
   const m = content[slug as MethodKey];
   if (!m) return null;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
   const c = isRu ? m.ru : m.en;
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Methods</div>
+          <div className="eyebrow">{isRu ? 'Методы' : 'Methods'}</div>
           <h1>{c.h1}</h1>
           <p className="lead">{c.lead}</p>
           <div className="cta-row">

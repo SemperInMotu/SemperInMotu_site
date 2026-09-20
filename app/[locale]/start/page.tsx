@@ -21,38 +21,38 @@ const doors = [
   {
     href: '/capabilities/analytics',
     en: { t: 'Data, but no decisions', d: 'Analytics, KPI, marts, Go/No-Go.' },
-    ru: { t: 'Есть данные, нет решений', d: 'Analytics, KPI, витрины, Go/No-Go.' },
+    ru: { t: 'Есть данные, нет решений', d: 'Аналитика, KPI, витрины, решение «идём / не идём».' },
   },
   {
     href: '/capabilities/engineering',
     en: { t: 'Idea for an agent / pilot', d: 'AI engineering + KPI POC.' },
-    ru: { t: 'Идея агента / пилота', d: 'AI engineering + KPI POC.' },
+    ru: { t: 'Идея агента или пилота', d: 'Разработка ИИ + KPI-пилот.' },
   },
   {
     href: '/solutions/logistics',
     en: { t: 'Logistics / TMS / calls', d: 'Our strongest runway.' },
-    ru: { t: 'Логистика / TMS / звонки', d: 'Главный runway.' },
+    ru: { t: 'Логистика / TMS / звонки', d: 'Наша опорная отрасль.' },
   },
   {
     href: '/methods/express-audit',
     en: { t: 'Not sure yet', d: 'Express audit — map the next step.' },
-    ru: { t: 'Пока неясно', d: 'Express audit — карта следующего шага.' },
+    ru: { t: 'Пока неясно', d: 'Экспресс-аудит — карта следующего шага.' },
   },
 ] as const;
 
 export default async function StartPage({ params }: { params: Promise<{ locale: string }> }) {
   const locale = (await params).locale as Locale;
-  const isRu = locale === 'ru' || locale === 'be';
+  const isRu = locale === 'ru';
 
   return (
     <main>
       <section className="page-hero">
         <div className="wrap">
-          <div className="eyebrow">Start</div>
+          <div className="eyebrow">{isRu ? 'Старт' : 'Start'}</div>
           <h1>{isRu ? 'С какой задачей вы пришли?' : 'What brought you here?'}</h1>
           <p className="lead">
             {isRu
-              ? 'Не начинаем с AI. Начинаем с проблемы. Выберите ближайшую дверь.'
+              ? 'Не начинаем с ИИ. Начинаем с проблемы. Выберите ближайший вход.'
               : "Don't start with AI. Start with the problem. Pick the closest door."}
           </p>
         </div>
