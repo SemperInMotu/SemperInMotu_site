@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import '../globals.css';
 import { GoogleAnalytics } from '@/components/GoogleAnalytics';
 import { SiteFooter, SiteHeader } from '@/components/SiteChrome';
+import { YandexMetrika } from '@/components/YandexMetrika';
 import { isLocale, locales, type Locale } from '@/lib/i18n';
 
 export function generateStaticParams() {
@@ -28,6 +29,7 @@ export default async function LocaleLayout({
       </head>
       <body>
         <GoogleAnalytics />
+        <YandexMetrika />
         <SiteHeader locale={locale} />
         {children}
         <SiteFooter locale={locale} />
