@@ -26,10 +26,10 @@ export default async function LocaleLayout({
     <html lang={locale}>
       <head>
         <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+        <YandexMetrika />
       </head>
       <body>
         <GoogleAnalytics />
-        <YandexMetrika />
         <SiteHeader locale={locale} />
         {children}
         <SiteFooter locale={locale} />
