@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { localePath, type Locale } from '@/lib/i18n';
+import { asLocale, localePath } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 type MethodKey = 'kpi-poc' | 'shadow-mode' | 'audit-lane' | 'express-audit';
@@ -80,7 +80,7 @@ export async function generateMetadata({
   const m = content[slug as MethodKey];
   if (!m) return {};
   return pageMetadata({
-    locale: locale as Locale,
+    locale: asLocale(locale),
     path: m.path,
     title: `${m.title} — Semper In Motu`,
     description: m.en.lead,
@@ -93,7 +93,7 @@ export default async function MethodSlugPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale: raw, slug } = await params;
-  const locale = raw as Locale;
+  const locale = asLocale(raw);
   const m = content[slug as MethodKey];
   if (!m) return null;
   const isRu = locale === 'ru';

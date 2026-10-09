@@ -152,6 +152,9 @@ export function SiteFooter({ locale }: { locale: Locale }) {
                 <Link href={localePath(locale, '/about')}>{t.about}</Link>
               </li>
               <li>
+                <Link href={localePath(locale, '/sitemap')}>{t.sitemap}</Link>
+              </li>
+              <li>
                 <a href={personalUrl(locale)}>{t.personal}</a>
               </li>
             </ul>

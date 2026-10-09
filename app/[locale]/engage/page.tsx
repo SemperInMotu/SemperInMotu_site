@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
-import { alfakitUrl, localePath, type Locale } from '@/lib/i18n';
+import { asLocale, alfakitUrl, localePath } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -8,7 +8,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const locale = (await params).locale as Locale;
+  const locale = asLocale((await params).locale);
   return pageMetadata({
     locale,
     path: '/engage',
@@ -21,7 +21,7 @@ export async function generateMetadata({
 }
 
 export default async function EngagePage({ params }: { params: Promise<{ locale: string }> }) {
-  const locale = (await params).locale as Locale;
+  const locale = asLocale((await params).locale);
   const isRu = locale === 'ru';
 
   const rows = isRu

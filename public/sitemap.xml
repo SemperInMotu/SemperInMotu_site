@@ -4,98 +4,151 @@
     <loc>https://semperinmotu.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/" />
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/" />
+    <loc>https://semperinmotu.com/start/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/start/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/start/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/start/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/alfakit.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/alfakit.html" />
+    <loc>https://semperinmotu.com/capabilities/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/data.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/data.html" />
+    <loc>https://semperinmotu.com/capabilities/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/analytics/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/analytics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/analytics/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/smart.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/smart.html" />
+    <loc>https://semperinmotu.com/capabilities/engineering/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/engineering/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/engineering/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/engineering/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/poc.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/poc.html" />
+    <loc>https://semperinmotu.com/solutions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/demos/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/" />
+    <loc>https://semperinmotu.com/solutions/logistics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/logistics/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/logistics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/logistics/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/demos/logistics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/logistics/" />
+    <loc>https://semperinmotu.com/solutions/operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/operations/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/operations/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/operations/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/demos/retail/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/retail/" />
+    <loc>https://semperinmotu.com/solutions/sales-ops/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/sales-ops/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/sales-ops/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/sales-ops/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/demos/manufacturing/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/manufacturing/" />
+    <loc>https://semperinmotu.com/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ops/demos/ecommerce/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/ecommerce/" />
+    <loc>https://semperinmotu.com/products/data/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/data/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/data/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/data/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/products/smart/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/smart/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/smart/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/smart/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/products/poc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/poc/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/poc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/poc/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/products/demos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/demos/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/demos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/demos/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/methods/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/methods/kpi-poc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/kpi-poc/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/kpi-poc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/kpi-poc/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/methods/shadow-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/shadow-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/shadow-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/shadow-mode/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/methods/audit-lane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/audit-lane/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/audit-lane/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/audit-lane/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/methods/express-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/express-audit/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/express-audit/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/express-audit/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -103,7 +156,6 @@
     <loc>https://semperinmotu.com/work/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/work/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/work/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/work/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/work/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -112,8 +164,15 @@
     <loc>https://semperinmotu.com/journal/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/journal/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/engage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/engage/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/engage/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/engage/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -121,7 +180,6 @@
     <loc>https://semperinmotu.com/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/about/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/about/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/about/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -130,8 +188,31 @@
     <loc>https://semperinmotu.com/contact/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/contact/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/contact/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/sitemap/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/sitemap/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/sitemap/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/sitemap/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/journal/call-to-crm/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/call-to-crm/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/call-to-crm/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/call-to-crm/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/journal/audit-provenance-hitl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/audit-provenance-hitl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/audit-provenance-hitl/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/audit-provenance-hitl/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -139,98 +220,151 @@
     <loc>https://semperinmotu.com/ru/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/" />
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/" />
+    <loc>https://semperinmotu.com/ru/start/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/start/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/start/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/start/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/alfakit.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/alfakit.html" />
+    <loc>https://semperinmotu.com/ru/capabilities/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/data.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/data.html" />
+    <loc>https://semperinmotu.com/ru/capabilities/analytics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/analytics/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/analytics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/analytics/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/smart.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/smart.html" />
+    <loc>https://semperinmotu.com/ru/capabilities/engineering/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/capabilities/engineering/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/capabilities/engineering/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/capabilities/engineering/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/poc.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/poc.html" />
+    <loc>https://semperinmotu.com/ru/solutions/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/demos/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/" />
+    <loc>https://semperinmotu.com/ru/solutions/logistics/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/logistics/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/logistics/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/logistics/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/demos/logistics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/logistics/" />
+    <loc>https://semperinmotu.com/ru/solutions/operations/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/operations/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/operations/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/operations/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/demos/retail/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/retail/" />
+    <loc>https://semperinmotu.com/ru/solutions/sales-ops/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/solutions/sales-ops/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/solutions/sales-ops/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/solutions/sales-ops/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/demos/manufacturing/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/manufacturing/" />
+    <loc>https://semperinmotu.com/ru/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/ru/ops/demos/ecommerce/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/ecommerce/" />
+    <loc>https://semperinmotu.com/ru/products/data/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/data/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/data/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/data/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/products/smart/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/smart/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/smart/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/smart/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/products/poc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/poc/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/poc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/poc/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/products/demos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/products/demos/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/products/demos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/products/demos/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/methods/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/methods/kpi-poc/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/kpi-poc/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/kpi-poc/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/kpi-poc/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/methods/shadow-mode/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/shadow-mode/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/shadow-mode/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/shadow-mode/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/methods/audit-lane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/audit-lane/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/audit-lane/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/audit-lane/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/methods/express-audit/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/methods/express-audit/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/methods/express-audit/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/methods/express-audit/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -238,7 +372,6 @@
     <loc>https://semperinmotu.com/ru/work/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/work/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/work/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/work/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/work/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -247,8 +380,15 @@
     <loc>https://semperinmotu.com/ru/journal/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/journal/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://semperinmotu.com/ru/engage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/engage/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/engage/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/engage/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -256,7 +396,6 @@
     <loc>https://semperinmotu.com/ru/about/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/about/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/about/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/about/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/about/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -265,143 +404,31 @@
     <loc>https://semperinmotu.com/ru/contact/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/contact/" />
     <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/contact/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/contact/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/contact/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/be/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/" />
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/" />
+    <loc>https://semperinmotu.com/ru/sitemap/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/sitemap/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/sitemap/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/sitemap/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/be/ops/alfakit.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/alfakit.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/alfakit.html" />
+    <loc>https://semperinmotu.com/ru/journal/call-to-crm/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/call-to-crm/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/call-to-crm/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/call-to-crm/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://semperinmotu.com/be/ops/data.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/data.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/data.html" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/smart.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/smart.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/smart.html" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/poc.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/poc.html" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/poc.html" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/demos/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/demos/logistics/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/logistics/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/logistics/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/demos/retail/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/retail/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/retail/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/demos/manufacturing/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/manufacturing/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/manufacturing/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/ops/demos/ecommerce/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/ops/demos/ecommerce/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/ops/demos/ecommerce/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/work/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/work/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/work/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/work/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/work/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/journal/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/journal/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/about/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/about/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/about/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/about/" />
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://semperinmotu.com/be/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/contact/" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/contact/" />
-    <xhtml:link rel="alternate" hreflang="be" href="https://semperinmotu.com/be/contact/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/contact/" />
+    <loc>https://semperinmotu.com/ru/journal/audit-provenance-hitl/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://semperinmotu.com/journal/audit-provenance-hitl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://semperinmotu.com/ru/journal/audit-provenance-hitl/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://semperinmotu.com/journal/audit-provenance-hitl/" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

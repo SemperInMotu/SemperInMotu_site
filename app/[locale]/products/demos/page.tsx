@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import '@/app/demos.css';
 import { DemoMount } from '@/components/DemoMount';
-import { type Locale } from '@/lib/i18n';
+import { asLocale } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -9,7 +9,7 @@ export async function generateMetadata({
 }: {
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
-  const locale = (await params).locale as Locale;
+  const locale = asLocale((await params).locale);
   return pageMetadata({
     locale,
     path: '/products/demos',

@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { getJournalPost, journalCopy, journalPosts } from '@/lib/journal';
-import { localePath, type Locale } from '@/lib/i18n';
+import { asLocale, localePath } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 import { notFound } from 'next/navigation';
 
@@ -15,7 +15,7 @@ export async function generateMetadata({
   params: Promise<{ locale: string; slug: string }>;
 }): Promise<Metadata> {
   const { locale: raw, slug } = await params;
-  const locale = raw as Locale;
+  const locale = asLocale(raw);
   const post = getJournalPost(slug);
   if (!post) return {};
   const c = journalCopy(post, locale);
@@ -33,7 +33,7 @@ export default async function JournalSlugPage({
   params: Promise<{ locale: string; slug: string }>;
 }) {
   const { locale: raw, slug } = await params;
-  const locale = raw as Locale;
+  const locale = asLocale(raw);
   const post = getJournalPost(slug);
   if (!post) notFound();
   const isRu = locale === 'ru';

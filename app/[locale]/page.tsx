@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 import { HeroShell } from '@/components/HeroMap';
 import { homeCopy, pick } from '@/lib/copy';
-import { localePath, personalUrl, type Locale } from '@/lib/i18n';
+import { asLocale, localePath, personalUrl } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -11,9 +11,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const copy = pick(homeCopy, locale as Locale);
+  const copy = pick(homeCopy, asLocale(locale));
   return pageMetadata({
-    locale: locale as Locale,
+    locale: asLocale(locale),
     path: '/',
     title: copy.title,
     description: copy.description,
@@ -22,7 +22,7 @@ export async function generateMetadata({
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
-  const locale = raw as Locale;
+  const locale = asLocale(raw);
   const copy = pick(homeCopy, locale);
 
   return (

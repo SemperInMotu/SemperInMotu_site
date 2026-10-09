@@ -3,9 +3,7 @@ import { redirectLocale } from '@/lib/redirect';
 const demos = ['logistics', 'retail', 'manufacturing', 'ecommerce'] as const;
 
 export function generateStaticParams() {
-  return demos.flatMap((demo) =>
-    (['en', 'ru'] as const).map((locale) => ({ locale, demo })),
-  );
+  return demos.map((demo) => ({ demo }));
 }
 
 export default async function OpsDemoRedirect({

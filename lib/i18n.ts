@@ -6,14 +6,21 @@ export function isLocale(value: string): value is Locale {
   return (locales as readonly string[]).includes(value);
 }
 
+/** English is the default locale and has no URL prefix. */
 export function localePrefix(locale: Locale): string {
-  return `/${locale}`;
+  return locale === defaultLocale ? '' : `/${locale}`;
 }
 
 export function localePath(locale: Locale, path: string): string {
   const normalized = path.startsWith('/') ? path : `/${path}`;
   const withSlash = normalized.endsWith('/') ? normalized : `${normalized}/`;
-  return `${localePrefix(locale)}${withSlash === '//' ? '/' : withSlash}`;
+  const prefix = localePrefix(locale);
+  if (!prefix) return withSlash;
+  return `${prefix}${withSlash}`;
+}
+
+export function asLocale(value: string | undefined | null): Locale {
+  return value && isLocale(value) ? value : defaultLocale;
 }
 
 export function siteUrl(locale: Locale, path: string = '/'): string {
@@ -56,6 +63,7 @@ export const chrome = {
     contactCol: 'Contact',
     formLink: 'Contact form',
     about: 'About',
+    sitemap: 'Sitemap',
     personal: 'Vitaly Khoruzhko',
     alfakit: 'ALFAKIT Care · alfakit.by',
     data: 'Data / DWH',
@@ -81,6 +89,7 @@ export const chrome = {
     contactCol: 'Контакты',
     formLink: 'Форма связи',
     about: 'О студии',
+    sitemap: 'Карта сайта',
     personal: 'Vitaly Khoruzhko',
     alfakit: 'ALFAKIT Care · alfakit.by',
     data: 'Данные и хранилища',

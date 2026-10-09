@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { opsIndexCopy, pick } from '@/lib/copy';
-import { alfakitUrl, localePath, type Locale } from '@/lib/i18n';
+import { asLocale, alfakitUrl, localePath, type Locale } from '@/lib/i18n';
 import { pageMetadata } from '@/lib/metadata';
 
 export async function generateMetadata({
@@ -10,9 +10,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const copy = pick(opsIndexCopy, locale as Locale);
+  const copy = pick(opsIndexCopy, asLocale(locale));
   return pageMetadata({
-    locale: locale as Locale,
+    locale: asLocale(locale),
     path: '/solutions/logistics',
     title: copy.title,
     description: copy.description,
@@ -26,7 +26,7 @@ function cardHref(locale: Locale, card: (typeof opsIndexCopy.en.cards)[number]) 
 
 export default async function LogisticsSolutionPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params;
-  const locale = raw as Locale;
+  const locale = asLocale(raw);
   const copy = pick(opsIndexCopy, locale);
 
   return (

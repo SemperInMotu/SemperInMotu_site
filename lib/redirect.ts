@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation';
-import { localePath, type Locale } from '@/lib/i18n';
+import { asLocale, localePath } from '@/lib/i18n';
 
-/** Static-export friendly locale redirect. */
-export function redirectLocale(locale: string, path: string): never {
-  redirect(localePath(locale as Locale, path));
+/** Static-export friendly locale redirect. Missing locale is English. */
+export function redirectLocale(locale: string | undefined, path: string): never {
+  redirect(localePath(asLocale(locale), path));
 }
