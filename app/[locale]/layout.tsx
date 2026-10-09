@@ -1,9 +1,7 @@
 import type { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import '../globals.css';
-import { GoogleAnalytics } from '@/components/GoogleAnalytics';
-import { SiteFooter, SiteHeader } from '@/components/SiteChrome';
-import { YandexMetrika } from '@/components/YandexMetrika';
+import { SiteDocument } from '@/components/SiteDocument';
 import { isLocale, locales, type Locale } from '@/lib/i18n';
 
 export function generateStaticParams() {
@@ -22,18 +20,5 @@ export default async function LocaleLayout({
 
   const locale = raw as Locale;
 
-  return (
-    <html lang={locale}>
-      <head>
-        <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
-        <YandexMetrika />
-      </head>
-      <body>
-        <GoogleAnalytics />
-        <SiteHeader locale={locale} />
-        {children}
-        <SiteFooter locale={locale} />
-      </body>
-    </html>
-  );
+  return <SiteDocument locale={locale}>{children}</SiteDocument>;
 }

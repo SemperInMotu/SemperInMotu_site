@@ -19,6 +19,7 @@ export function SiteHeader({ locale, current }: { locale: Locale; current?: NavK
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
+  const path = pathname.endsWith('/') ? pathname : `${pathname}/`;
   const currentKey: NavKey | undefined =
     current ??
     (pathname.includes('/contact')
@@ -35,7 +36,7 @@ export function SiteHeader({ locale, current }: { locale: Locale; current?: NavK
                 ? 'capabilities'
                 : pathname.includes('/start')
                   ? 'start'
-                  : pathname === localePath(locale, '/') || pathname.endsWith(`/${locale}/`)
+                  : path === localePath(locale, '/') || path === `/${locale}/`
                     ? 'home'
                     : undefined);
 
@@ -150,6 +151,9 @@ export function SiteFooter({ locale }: { locale: Locale }) {
               </li>
               <li>
                 <Link href={localePath(locale, '/about')}>{t.about}</Link>
+              </li>
+              <li>
+                <Link href={localePath(locale, '/sitemap')}>{t.sitemap}</Link>
               </li>
               <li>
                 <a href={personalUrl(locale)}>{t.personal}</a>
