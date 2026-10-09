@@ -8,7 +8,9 @@
   "scripts": {
     "dev": "next dev --port 5175",
     "dev:v1-port": "next dev --port 5174",
+    "prebuild": "node scripts/gen-english-routes.mjs",
     "build": "next build",
+    "postbuild": "node scripts/write-404.mjs",
     "lint": "next lint",
     "sitemap": "node scripts/gen-sitemap.mjs"
   },
