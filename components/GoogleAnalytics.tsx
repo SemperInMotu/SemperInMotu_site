@@ -1,22 +1,5 @@
-import Script from 'next/script';
-
-const GA_ID = 'G-86FR8M650L';
+import { googleAnalyticsSnippet } from '@/lib/google-analytics';
 
 export function GoogleAnalytics() {
-  return (
-    <>
-      <Script
-        src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        strategy="afterInteractive"
-      />
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_ID}');
-        `}
-      </Script>
-    </>
-  );
+  return <script id="google-analytics" dangerouslySetInnerHTML={{ __html: googleAnalyticsSnippet() }} />;
 }
